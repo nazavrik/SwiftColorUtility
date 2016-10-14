@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		117065AE1DB19C2C001BC525 /* SwiftColorUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 117065AC1DB19C2C001BC525 /* SwiftColorUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117065B51DB19E11001BC525 /* SwiftColorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117065B41DB19E11001BC525 /* SwiftColorUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		117065A91DB19C2C001BC525 /* SwiftColorUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftColorUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		117065AC1DB19C2C001BC525 /* SwiftColorUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftColorUtility.h; sourceTree = "<group>"; };
 		117065AD1DB19C2C001BC525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117065B41DB19E11001BC525 /* SwiftColorUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColorUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		117065AB1DB19C2C001BC525 /* SwiftColorUtility */ = {
 			isa = PBXGroup;
 			children = (
+				117065B41DB19E11001BC525 /* SwiftColorUtility.swift */,
 				117065AC1DB19C2C001BC525 /* SwiftColorUtility.h */,
 				117065AD1DB19C2C001BC525 /* Info.plist */,
 			);
@@ -96,6 +99,7 @@
 					117065A81DB19C2C001BC525 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = XW7Z7QF5BM;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117065B51DB19E11001BC525 /* SwiftColorUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +245,7 @@
 		117065B21DB19C2C001BC525 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XW7Z7QF5BM;
@@ -252,6 +258,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nazavrik.SwiftColorUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +266,7 @@
 		117065B31DB19C2C001BC525 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XW7Z7QF5BM;
