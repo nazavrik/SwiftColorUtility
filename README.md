@@ -25,7 +25,7 @@ let indigoColor = UIColor(hexString: "#4B0082")
 To integrate SwiftColorUtility into your Xcode project using CocoaPods, specify it in your Podfile:
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
