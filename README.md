@@ -1,4 +1,4 @@
-# SwiftHexColor
+# SwiftColorUtility
 UIColor extension for creating a color using RGB hex.
 ## Examples
 ``` swift
