@@ -22,15 +22,15 @@ let indigoColor = UIColor(hexString: "#4B0082")
 ##Installation
 	
 ### CocoaPods
-To integrate SwiftHexColor into your Xcode project using CocoaPods, specify it in your Podfile:
+To integrate SwiftColorUtility into your Xcode project using CocoaPods, specify it in your Podfile:
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'SwiftHexColor', '~> 0.1.1'
+    pod 'SwiftColorUtility', '~> 0.1.0'
 end
 ```
 ##License
-SwiftHexColor is released under the MIT license. See [LICENSE](https://github.com/nazavrik/SwiftHexColor/blob/master/LICENSE) for details.
+SwiftColorUtility is released under the MIT license. See [LICENSE](https://github.com/nazavrik/SwiftColorUtility/blob/master/LICENSE) for details.
