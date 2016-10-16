@@ -1,0 +1,11 @@
+language: objective-c
+osx_image: xcode8
+
+branches:
+ only:
+ - master
+
+script:
+- xcodebuild clean build -project SwiftHexColor.xcodeproj -scheme SwiftHexColor -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0'
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
