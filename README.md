@@ -1,5 +1,7 @@
 # SwiftColorUtility
 UIColor extension for creating a color using RGB hex.
+
+[![Build Status](https://travis-ci.org/nazavrik/SwiftColorUtility.svg?branch=master)](https://travis-ci.org/nazavrik/SwiftColorUtility)
 ## Examples
 ``` swift
 //Gray RGB Color using hex Int with alpha
